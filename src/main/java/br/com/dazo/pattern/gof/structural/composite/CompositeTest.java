@@ -1,10 +1,11 @@
 package br.com.dazo.pattern.gof.structural.composite;
 
-/*Composite. Takes a group of objects into a single object.*/
+/**
+ * Composite. Takes a group of objects into a single object.
+ */
 public class CompositeTest {
 
     public static void main(String[] args) {
-        
 
         CatalogComponent mJeanCatalogLeaf=new CatalogLeaf("M: Jeans 32", 65.00);
         CatalogComponent mTShirtCatalogLeaf=new CatalogLeaf("M: T Shirt 38", 45.00);
